@@ -1,0 +1,17 @@
+题目四：竞争环境下的宝藏分配
+6x6 距离矩阵:
+	A	B	T1	T2	T3	T4
+A	0	14	10	4	8	10
+B	14	0	9	9	5	11
+T1	10	9	0	5	7	13
+T2	4	9	5	0	6	8
+T3	8	5	7	6	0	5
+T4	10	11	13	8	5	0
+Alpha-Beta H=2 结果: {'best_target': 'T2', 'best_value': 0}
+Alpha-Beta H=2 访问节点数: 16, 剪枝次数: 0
+Minimax    H=2 结果: {'best_target': 'T2', 'best_value': 0}
+Minimax    H=2 访问节点数: 16
+Alpha-Beta H=4 结果: {'best_target': 'T3', 'best_value': 5}
+Alpha-Beta H=4 访问节点数: 56, 剪枝次数: 11
+Minimax    H=4 结果: {'best_target': 'T3', 'best_value': 5}
+Minimax    H=4 访问节点数: 64
